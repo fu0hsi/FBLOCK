@@ -1,0 +1,10 @@
+header{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    font-style: italic;
+}
+.block {
+    background: url(C:/Users/S/Desktop/webb/wp1/pyr.png);
+}

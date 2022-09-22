@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>illuminati</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h2><b><i>ONE DOLLAR</i></b></h2></header>
+    <p>Год подписания Декларации Независимости США</p>
+    <p><input type="text" id="p1"></p>
+    <button
+    onclick="test();">Проверить</button>
+    <div id="result"></div>
+    <script>
+        function test(){
+            rans1 = 1776;
+            ans1 = document.getElementById('p1').value;
+            if(ans1 == rans1) {let result = document.getElementById('result').innerHTML = "Верно!";}
+        }
+    </script>
+    <div class="block">
+        <div style='display: flex; justify-content: center; backdrop-filter: blur(5px); background-position: center;'>
+            <a href="#">
+                <img src="1d.jpg"
+                onmouseover="this.src='1dr.jpg'"
+                onmouseout="this.src='1d.jpg'"/>
+            </a>
+            </div>
+    </div>
+</body>
+</html>
