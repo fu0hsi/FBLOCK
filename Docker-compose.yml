@@ -1,0 +1,13 @@
+version: '3'
+services:
+  nginx:
+    image: nginx:latest
+    container_name: dollarcontainer
+    ports:
+      - 80:80
+    volumes:
+      - .:/usr/share/nginx/html
+
+      #docker-compose build
+      #docker-compose up -d
+      #docker logs dollarcontainer -f
